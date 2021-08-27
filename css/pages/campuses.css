@@ -1,1 +1,14 @@
 /* TODO: Build layout for campuses page */
+.campuses-content {
+  display: flex;
+}
+
+.campuses-content .cards {
+  flex-grow: 1;
+}
+
+#map {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
